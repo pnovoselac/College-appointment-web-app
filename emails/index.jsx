@@ -39,9 +39,6 @@ export const EmailTemplate = ({ userFirstname = "Test User" }) => (
                     Get ready for your classes. :)
                 </Text>
                 <Section style={btnContainer}>
-                    <Button style={button} href="https://getkoala.com">
-                        Get started
-                    </Button>
                 </Section>
                 <Text style={paragraph}>
                     Best,
