@@ -20,7 +20,7 @@ function Search({params}) {
 
   return (
     <div className='mt-5'>
-      <ProfessorList heading={params.cname}
+      <ProfessorList heading={decodeURIComponent(params.cname)}
       professorList={professorList}/>
     </div>
   )

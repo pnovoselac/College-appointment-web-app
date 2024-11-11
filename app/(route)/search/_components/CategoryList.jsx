@@ -28,7 +28,7 @@ function CategoryList() {
 
     const getCategoryList=()=>{
         GlobalApi.getCategory().then(resp=>{
-            console.log('Received categories:', resp.data.data); // Dodajte ovo za debug
+            console.log('Received categories:', resp.data.data);
             setCategoryList(resp.data.data);
         })
     }

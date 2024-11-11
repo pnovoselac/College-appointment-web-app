@@ -35,6 +35,8 @@ export const EmailTemplate = ({ userFirstname = "Test User" }) => (
                 <Text style={paragraph}>
                     Welcome to College-appointment web app, platform that helps you
                     find and book your additional classes.
+
+                    Get ready for your classes. :)
                 </Text>
                 <Section style={btnContainer}>
                     <Button style={button} href="https://getkoala.com">
